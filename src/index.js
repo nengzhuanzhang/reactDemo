@@ -38,11 +38,6 @@ class Square extends React.Component {
             {this.renderSquare(7)}
             {this.renderSquare(8)}
           </div>
-          <div className="board-row">
-            {this.renderSquare(10)}
-            {this.renderSquare(7)}
-            {this.renderSquare(8)}
-          </div>
         </div>
       );
     }
